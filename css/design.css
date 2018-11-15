@@ -394,7 +394,7 @@ body div:nth-child(5){margin-top:0;}
 body div:nth-child(5) div.saber{display:inline-block;}
 }
 @media screen and (min-width:1365px){
-.info-web{display:inline-block;position:inherit;text-align:center;width:230%;margin:0 0;right:-4%;}
+.info-web{display:inline-block;position:relative;text-align:center;width:100%;margin:0 auto;left:11%;}
 .link-faldon{margin: 0 2%;}
 #navbarNav div{left:30%;}
 body div:nth-child(4) div.saber{margin-bottom:4%;}
@@ -409,7 +409,7 @@ body div:nth-child(6) div.saber{display:none;}
 div#equipo-aq8-wide{margin-top:0;}
 }
 @media screen and (min-width:1440px){
-.info-web{left:7%;}
+.info-web{width:60%;left:12%;}
 #navbarNav div{left:37%;}
 body div:nth-child(5) div.saber{margin:2% auto;}
 body div:nth-child(5) div.saber a{width:13%;}
