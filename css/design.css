@@ -407,6 +407,7 @@ div#MR{margin-top:10%;}
 body div:nth-child(6) div.saber{display:none;}
 #negocio div{display:block;}
 div#equipo-aq8-wide{margin-top:0;}
+#video-contacto{width:70%;margin-left:15%;}
 }
 @media screen and (min-width:1440px){
 .info-web{width:60%;left:12%;}
