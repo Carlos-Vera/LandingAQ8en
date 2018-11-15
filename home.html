@@ -230,27 +230,10 @@
 		</div>
 	<div class="bodytec"><p class="copyright">Madrid </p><h2> Bodytec</h2><p class="copyright"> Technologies S.L.<br>All Rights Reserved.</p></div>
 	</div>
-	<script src="contactme/js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/tether.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 
-	<script>
-		$(function(){
-			$('.menu > a').on('click', function(e){
-				e.preventDefault();
-				$('.menu > a, .form-container').removeClass('active');
-				$(this).addClass('active');
-				$($(this).attr('href')).addClass('active');
-			});
-			$('#choose-theme > a').on('click', function(e){
-				e.preventDefault();
-				var themeName = $(this).data('theme-name');
-				$('.contactMe').removeClass('theme-minimal theme-modern theme-london').addClass(themeName);
-				$('#choose-theme > a').removeClass('active');
-				$(this).addClass('active');
-			});
-		});
-	</script>
 	<!-- script para que funcione al 100% el botón ir arriba -->
 	<script>
 		$(window).scroll(function(){
