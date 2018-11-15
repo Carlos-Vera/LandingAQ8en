@@ -271,7 +271,7 @@ body {position:relative;}
     transform:none;
   }
 }
-@media screen and (max-width: 765px){
+@media screen and (min-width: 765px){
   .contactMe > section {border: none;}
 }
 @media screen and (min-width: 1365px){
