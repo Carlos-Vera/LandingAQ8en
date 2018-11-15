@@ -4,14 +4,14 @@
  * https://www.21tools.it
  *
  */
- 
+
 /* Generic */
 body {position:relative;}
 .contactMe, .contactMe * {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 .contactMe * {outline:none !important;font-size:14px;color:#000;}
 .contactMe {width:auto;padding:0;margin:0 auto;background:#F1F1F1;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
 .contactMe.xsmall {max-width:300px;}
-.contactMe.small {max-width:600px;}
+.contactMe.small {max-width:600px;margin-top:25%;}
 .contactMe.medium {max-width:500px;}
 .contactMe > header {padding:30px 30px 20px 30px;}
 .contactMe > header > hr {display:none;}
