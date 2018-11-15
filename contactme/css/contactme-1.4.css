@@ -273,7 +273,6 @@ body {position:relative;}
 }
 @media screen and (max-width: 765px){
   .contactMe > section {border: none;}
-  .contactMe.small {margin-top:0%;}
 }
 @media screen and (min-width: 1365px){
   .contactMe.small {margin-top:0%;}
