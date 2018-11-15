@@ -271,10 +271,11 @@ body {position:relative;}
     transform:none;
   }
 }
-@media screen and (max-width: 765px){
-  .contactMe.small {margin-top:0%;}
+
+@media screen and (min-width: 765px){
+  .contactMe.small {margin-top:25%;}
 }
-@media screen and (min-width: 767px){
+@media screen and (min-width: 1024px){
   .contactMe.small {margin-top:0%;}
 }
 @media screen and (min-width: 1365px){
