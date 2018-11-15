@@ -4,8 +4,8 @@ error_reporting(E_ALL);
 
 /* START - Required Config */
 $configs['from_name']				= 'AQ8 System® | EMS Training';					// Your name will be used in emails
-$configs['from_address']			= 'backup@aq8system.com';						// Your email address used to send emails
-$configs['to_addresses']			= array('backup@aq8system.com');				// The addresse(s) where to send all the requests
+$configs['from_address']			= 'info@aq8system.com';							// Your email address used to send emails
+$configs['to_addresses']			= array('info@aq8system.com');					// The addresse(s) where to send all the requests
 /* END - Required Config */
 
 /* START - Optional Configs */
@@ -19,7 +19,7 @@ $configs['email_to_owner']			= true;											// Send the email with informatio
 $configs['email_confirm']			= false;										// Send a confirm email to user?
 $configs['email_confirm_html_copy']	= false;										// Add a HTML copy of the data to the confirm email?
 $configs['cc_addresses']			= array();										// The cc addresse(s)
-$configs['bcc_addresses']			= array();										// The bcc addresse(s)
+$configs['bcc_addresses']			= array('backup@aq8system.com');				// The bcc addresse(s)
 $configs['user_ip_address']			= true;											// Do you want to add in the email the IP address of the user who filled in the Form?
 // SMTP configs
 $configs['smtp_enabled']			= false;										// Is the SMTP email sending enabled? (if not, PHP mail server will be used)
