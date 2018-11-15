@@ -75,6 +75,7 @@ p.negocio span, p.contactanos, a.telefono, #imagen > p:nth-child(2){display:bloc
 .mlr-5{margin-left:5%;margin-right:5%;}
 .neg-cur{font-weight:700;font-style:italic}
 .negrita{font-weight:700;}
+#text-equipo > p:nth-child(6){margin-top:2%;}
 .no-lr-pm{padding-left:0;padding-right:0;margin-left:0px;margin-right:0px;}
 div#equipo-aq8{display:block;width:100%;margin-top:15%;}
 div#equipo-aq8-wide{display:none;}
