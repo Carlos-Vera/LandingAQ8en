@@ -22,7 +22,7 @@
 		"subject" : "New message from the Landing Page in English (theemstraining.com)",
 		"custom_before_subject" : "",
 		"body" : "<b>¡Congratulations!</b>,<br />We have received a new message from the Landing Page (theemstraining.com).<br /><br />Here are the data:<br />",
-		"body_ip_address" : "Localizar el usuario: <a href=\"http://{{1}}.ip-adress.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Geolocalizar</a>",
+		"body_ip_address" : "Find the user: <a href=\"http://{{1}}.ip-adress.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Geolocate</a>",
 		"confirmation" : {
 			"subject" : "We received your message",
 			"body" : "Thanks!<br />Your message has been received. We'll reply to you as soon as possible.",
